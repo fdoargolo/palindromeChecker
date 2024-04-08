@@ -1,0 +1,23 @@
+body{
+    background-color: whitesmoke;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: var(--light-grey);
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+}
+.site{
+    height: 200px;
+
+}
+.input{
+    margin-left: 22%;
+}
+#text{
+}
+h1{
+    color: rgb(0, 0, 0);
+}
