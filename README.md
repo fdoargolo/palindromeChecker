@@ -1,2 +1,1 @@
 # palindromeChecker
-# palindromeChecker

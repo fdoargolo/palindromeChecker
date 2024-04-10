@@ -6,15 +6,26 @@
     <title>Palindrome</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
     <div class="site">
-        <div class="text">
+        <div id="title">
             <h1>Palindrome Checker</h1>
         </div>
+
+        <div id="result">
+            Write a text below to check if it is a Palindrome.
+        </div>
    
-        <div class="input">
-            <form action="script.js"> <input type="text" class="text"> </form>
+        <div id="form">
+            <form> <input for="text-input" type="text" class="text"> </form>
+        </div>
+
+        <div id="check-btn">
+            <button>check!</button>
         </div>
     </div>
+
+    <script src="./script.js"></script>
 </body>
 </html>

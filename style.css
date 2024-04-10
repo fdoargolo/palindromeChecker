@@ -9,15 +9,17 @@ body{
     align-items: center;
     margin-top: 15%;
 }
-.site{
-    height: 200px;
-
-}
-.input{
-    margin-left: 22%;
-}
-#text{
-}
 h1{
-    color: rgb(0, 0, 0);
+    margin-left: 3%;
+}
+#text-input{
+    margin-left: 22%;
+    margin-bottom: 10%;
+}
+#check-btn{
+    margin-left: 40%;
+}
+#result{
+    margin-bottom: 5%;
+   
 }
