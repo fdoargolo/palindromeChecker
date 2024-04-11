@@ -10,12 +10,15 @@ function reverseString(text){
 button.addEventListener("click", function(){
     let text = textInput.value;
     text = text.trim(); //removing spaces
+    reversedText = reverseString(text);
 
     if(text == ""){
         alert("Please input a value");
-    }else if(reverseString(text) == text){
+    }else if(reversedText == text){
+        result.style.color = 'green'; //coloring a little
         result.innerHTML = text + " is a palindrome.";
     } else{
+        result.style.color = 'red';
         result.innerHTML = text + " is not a palindrome.";
     }
 });
